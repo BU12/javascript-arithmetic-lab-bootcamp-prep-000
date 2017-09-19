@@ -28,7 +28,7 @@ function makeInt(n) {
 }
 
 
-function makeIntBaseTen(n, "10") {
+function makeIntBaseTen('n', 0) {
   return parseInt(n)
 }
 
