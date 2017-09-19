@@ -5,40 +5,40 @@ function add(a, b) {
 }
 
 function subtract(a, b) {
-  console.log(a - b)
+  return a - b
 }
 function multiply(a, b) {
-  a * b
+  return a * b
 }
 
 function divide(a, b) {
-  console.log(a / b)
+  return a / b
 }
 
 function increment(n) {
-  console.log(n += 1)
+  return n++
 }
 
 function decincrement(n) {
-  console.log(n -= 1)
+  return n --
 }
 
 function makeInt(n) {
-  console.log(parseInt(n))
+  return parseInt(n)
 }
 
 function makeIntBaseTen(n) {
-  console.log(10 + parseInt(n))
+  return 10 + parseInt(n)
 }
 
-function makeIntNaN() {
-  console.log(parseInt('nope!'))
+function makeIntNaN(n) {
+  return parseInt('nope!')
 }
 
 function preserveDecimal(n) {
-  console.log(parseFloat(n))
+  return parseFloat(n)
 }
 
 function preserveDecimalNaN() { //works
-  console.log(parseFloat('nope!'))
+  return parseFloat('nope!')
 }
