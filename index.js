@@ -1,14 +1,14 @@
 var a = 656
 var b = 378
 function add(a, b) {
-  console.log(a + b)
+  a + b
 }
 
 function subtract(a, b) {
   console.log(a - b)
 }
 function multiply(a, b) {
-  console.log(a * b)
+  a * b
 }
 
 function divide(a, b) {
