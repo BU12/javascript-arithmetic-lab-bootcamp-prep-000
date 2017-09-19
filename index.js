@@ -29,7 +29,7 @@ function makeInt(n) {
 
 
 function makeIntBaseTen(n) {
-  n = '10'
+  var n = '10'
   return parseInt(n)
 }
 
