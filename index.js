@@ -28,8 +28,8 @@ function makeInt(n) {
 }
 
 
-function makeIntBaseTen('n', 0) {
-  return parseInt(n)
+function makeIntBaseTen(n) {
+  return parseInt('n', 10)
 }
 
 function makeIntNaN(n) {
