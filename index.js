@@ -1,7 +1,7 @@
 var a = 656
 var b = 378
 function add(a, b) {
-  a + b
+  return a + b
 }
 
 function subtract(a, b) {
