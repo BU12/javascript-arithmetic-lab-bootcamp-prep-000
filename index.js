@@ -15,11 +15,11 @@ function divide(a, b) {
   return a / b
 }
 
-function increment(n) {
+function inc(n) {
   return n++
 }
 
-function decincrement(n) {
+function dec(n) {
   return n --
 }
 
@@ -27,8 +27,10 @@ function makeInt(n) {
   return parseInt(n)
 }
 
+
 function makeIntBaseTen(n) {
-  return 10 + parseInt(n)
+  n = '10'
+  return parseInt(n)
 }
 
 function makeIntNaN(n) {
